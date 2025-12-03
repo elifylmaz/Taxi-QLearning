@@ -122,7 +122,7 @@ Ajanın henüz hiçbir şey öğrenmeden ortamda nasıl davrandığını görmek
 
 ### 5.4. Q-Learning Eğitimi Gerçekleştirdim
 
-İşin mutfağı burası. Ajanı Q-Learning algoritması ile eğittim:
+Ajanı Q-Learning algoritması ile eğittim:
 
 - **Hazırlık:** Boş bir Q-Tablosu (hafıza) oluşturdum ve öğrenme parametrelerini (Learning Rate, Gamma vb.) ayarladım.
 - **Eğitim Döngüsü:** Ajana oyunu tam 5 milyon kez oynattım.
@@ -131,7 +131,7 @@ Ajanın henüz hiçbir şey öğrenmeden ortamda nasıl davrandığını görmek
 
 ### 5.5. Best Q-Table ile Test ve Değerlendirme
 
-Eğitimin meyvesini topladığım son aşama.
+Son aşama.
 
 - Kaydettiğim "en iyi modeli" yükleyerek ajanı 3 farklı senaryoda test ettim.
 - Bu aşamada ajan artık keşif yapmadı, doğrudan öğrendiği en optimal hamleleri uyguladı.
